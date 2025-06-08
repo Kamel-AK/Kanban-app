@@ -6,11 +6,11 @@
 ![Last Commit](https://img.shields.io/badge/last_commit-today-brightgreen)  
 ![PHP](https://img.shields.io/badge/PHP-44.8%25-777BB4?logo=php&logoColor=white)  
 ![License](https://img.shields.io/badge/license-MIT-blue)  
-![Languages](https://img.shields.io/badge/languages-4-ff69b4)
+
 ---
 
 ## 🛠️ Built With  
-    ![Screenshot 2025-06-08 at 00-57-47 Kanban Board](https://github.com/user-attachments/assets/6c63b4e4-bbec-447b-a1d4-09a131db925f)
+    ![Languages](https://img.shields.io/badge/languages-4-ff69b4)![Screenshot 2025-06-08 at 00-57-47 Kanban Board](https://github.com/user-attachments/assets/6c63b4e4-bbec-447b-a1d4-09a131db925f)
 
 ---
 
