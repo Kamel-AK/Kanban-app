@@ -1,0 +1,37 @@
+/* globals.css */
+
+/* 1) Import Tailwind and enable “class”-based dark mode exactly once: */
+@import "tailwindcss";
+@variant dark (&:where(.dark, .dark *));
+
+/* 2) Let the browser know you support both color‐schemes: */
+@layer base {
+  html {
+    color-scheme: light dark;
+  }
+}
+
+/* 3) Then pull in Tailwind’s layers: */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 4) (Optional) If you still want your own CSS variables-based theming: */
+:root {
+  --background-light: 255 255 255;
+  --foreground-light: 0 0 0;
+}
+:where(.dark) {
+  --background-dark: 30 30 45;
+  --foreground-dark: 255 255 255;
+}
+/* Set body to use those variables (only if you actually reference them): */
+body {
+  background-color: rgb(var(--background-light));
+  color: rgb(var(--foreground-light));
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+:where(.dark) body {
+  background-color: rgb(var(--background-dark));
+  color: rgb(var(--foreground-dark));
+}
